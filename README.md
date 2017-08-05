@@ -19,4 +19,5 @@ To remove the file from commit used the following command
 To create a new remote
 
 8. git remote add origin master (url) 
+
    git remote add pybook https://github.com/adyagit/pybooks.git
