@@ -6,4 +6,14 @@ For first time commit
 1. git config --global user.name "Your Name"
 2. git config --global user.email "youremail@domain.com"
 
-3. 
+Create a new Repo (tensorflow in this case)
+3. git clone (url)
+4. git add (file names)
+5. git commit -m "(committed message)
+6. git push -u origin master
+Git has a 100Mb file size limit. I had initially commited the pickle as well. The push failed because of the file size.
+To remove the file from commit used the following command
+7.  git filter-branch --index-filter 'git rm --cached --ignore-unmatch notMNIST.pickle'
+
+To create a new remote
+8. git remote add origin master (url) 
