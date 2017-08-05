@@ -7,6 +7,7 @@ For first time commit
 2. git config --global user.email "youremail@domain.com"
 
 Create a new Repo (tensorflow in this case)
+
 3. git clone (url)
 4. git add (file names)
 5. git commit -m "(committed message)
