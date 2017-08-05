@@ -17,4 +17,5 @@ To remove the file from commit used the following command
 7.  git filter-branch --index-filter 'git rm --cached --ignore-unmatch notMNIST.pickle'
 
 To create a new remote
+
 8. git remote add origin master (url) 
