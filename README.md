@@ -21,5 +21,8 @@ To create a new remote
 8. git remote add origin master (url) 
 
    git remote add pybook https://github.com/adyagit/pybooks.git
+
+Push Conflicts
+
 9. If push Updates were rejected because the remote contains work that you do not have locally, 
    git pull  - will solve the conflict. Its not suggested to do a --force push
